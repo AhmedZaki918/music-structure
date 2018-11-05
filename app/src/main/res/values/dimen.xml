@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="textSize_ArtistName">20sp</dimen>
+    <dimen name="textSize_Song">18sp</dimen>
+    <dimen name="layout_width_artistPhoto">100dp</dimen>
+    <dimen name="layout_height_artistPhoto">100dp</dimen>
+    <dimen name="layout_marginTop_musicIcon">35dp</dimen>
+    <dimen name="minHeight_listItem">100dp</dimen>
+    <dimen name="layout_width_playAndPauseIcons">70dp</dimen>
+    <dimen name="layout_height_playAndPauseIcons">70dp</dimen>
+</resources>

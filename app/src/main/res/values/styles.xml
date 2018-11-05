@@ -1,0 +1,24 @@
+<resources>
+
+    Base application theme.
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    Style of the text views in list_item.xml file.
+    <style name="TextViews_List_Items">
+
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_weight">1</item>
+
+    </style>
+
+
+</resources>
