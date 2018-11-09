@@ -58,6 +58,7 @@ public class LibraryActivity extends AppCompatActivity {
         dataSource.add(new Data("Nerga3 Tani", "Tamer Hosny", "2014", R.raw.nerga3_tani, R.drawable.tamer_hosny, R.drawable.baseline_library_music_black_24));
         dataSource.add(new Data("Rahnt 3alik", "Nansy Ajram", "2014", R.raw.rahnt3alik, R.drawable.nancy, R.drawable.baseline_library_music_black_24));
         dataSource.add(new Data("Tell me", "Inna", "2015", R.raw.tell_me, R.drawable.inna, R.drawable.baseline_library_music_black_24));
+        dataSource.add(new Data("Inta mny", "Yara", "2008", R.raw.inta_mny, R.drawable.anta_mny, R.drawable.baseline_library_music_black_24 ));
 
         // Create an {@link MusicAdaptor}, whose data source is a list of
         // {@link Data}s. The adapter knows how to create list item views for each item
@@ -119,6 +120,8 @@ public class LibraryActivity extends AppCompatActivity {
                 } else {
                     mMediaPlayer.start();
                     mPause_Play.setBackgroundResource(R.drawable.baseline_pause_black_24);
+                    //Change the progress of seekbar once the song is clicked
+                    changeSeekBar();
                 }
             }
         });
